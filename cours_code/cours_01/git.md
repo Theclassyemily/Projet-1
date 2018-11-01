@@ -1,5 +1,5 @@
 <h2>1. Git et GitHub</h2>
-<h3>1.1 Introduction</h3>
+<h3>1.1. Introduction</h3>
 
 Ce cours t'introduira à Git et Github, deux fantastiques outils qui permettent de faire des sauvegardes efficaces d'unprojet, et de travailler à plusieurs sur le même dossier.
 
@@ -22,19 +22,19 @@ Avant de pouvoir se servir de Git, il faut l'installer. Cela tombe bien, il y a 
 
 <h4>1.3.2. Première introduction à Git</h4>
 
-J'ai fait une petite vidéo d'introduction à Git, que tu pourras retrouver [ici](https://youtu.be/ggaMadCKjko)
+J'ai fait une petite vidéo d'introduction à Git, que tu pourras retrouver [ici](https://youtu.be/ggaMadCKjko).
 
 Ensuite, tu peux suivre le cours de Marc Gauthier jusqu'à la partie [Récupérez des modifications](https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github/recuperer-des-modifications). Nous verrons dans la formation THP comment faire les branches et autres joyeusetés 😇
 
 <h3>1.4. Points importants à retenir</h3>
-<h4>1.4.1 Les commandes pratiques</h4>
+<h4>1.4.1. Les commandes pratiques</h4>
 Voici un récap des commandes de base:  
 
 * $ git init : il faut TOUJOURS commencer par initialiser git avec cette commande. Avec cette commande, le répertoire courant est considéré comme un repository git  
 * $ git add [fichier] : ajoute aux sauvegardes le fichier mentionné. **Protip** : si tu as plusieurs fichiers à ajouter, tu peux utiliser $ git add . qui ajoute au repository tous les fichiers du dossier  
 * $ git commit -m [commentaire] : créé un commit (commit = sauvegarde suivie d'un commentaire).  
 * $ git status : te dit le status actuel de git.
-<h3>1.4.2 Lire l'historique</h3>
+<h3>1.4.2. Lire l'historique</h3>
 $ git log : permet de voir l'historique et de voir tous les commits. Les commits sont rangés avec:  
 
 * SHA: liste de chiffres et lettres qui identifient de façon unique le commit.  
@@ -43,7 +43,7 @@ $ git log : permet de voir l'historique et de voir tous les commits. Les commits
 * Message donné durant le commit: avec ce message, tu vas comprendre ce que faisait le commit. C'est pour cela qu'il est important d'avoir un bon nom.
 <h5>Pour quitter le log, il faut appuyer sur Q.</h5>
 
-<h3>1.4.3 Se positionner sur un commit donné</h3>
+<h3>1.4.3. Se positionner sur un commit donné</h3>
 Imaginons que veut vérifier un truc sur un vieux commit. On va utiliser la commande $ git checkout, utilisée comme ceci :  
 
 * $ git checkout 45581cebdd2cae494f80f4401af9e4a86c9b8fa: on dit à git de se positionner sur ce sha précis.  
