@@ -1,4 +1,4 @@
-##1. Git et GitHub
+<h2>1. Git et GitHub</h2>
 ###1.1 Introduction
 Ce cours t'introduira à Git et Github, deux fantastiques outils qui permettent de faire des sauvegardes efficaces d'unprojet, et de travailler à plusieurs sur le même dossier.
 
