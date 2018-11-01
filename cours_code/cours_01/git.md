@@ -5,7 +5,7 @@ Ce cours t'introduira à Git et Github, deux fantastiques outils qui permettent 
 Dans cette leçon, nous allons te montrer comment installer Git, comment s'en servir, et comment le faire marcher. Pour ceci, nous allons nous aider de l'excellent [cours](https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github) sur OpenClassrooms de Marc Gauthier, sur Git et GitHub.
 
 <h3>1.2. Historique</h3>
-Git est un outil de versionning de code, c'est à dire que c'est une commande qui permet de faire des sauvegardes, avec commentaires d'un projet. Ainsi, il est facile de revenir d'une version de sauvegarde à l'autre, et c'est même optimisé pour les projets où tout le monde travaille sur le même fichier !
+Git est un outil de versionning de code, c'est à dire que c'est une commande qui permet de faire des sauvegardes, avec commentaires d'un projet. Ainsi, il est facile de revenir d'une version de sauvegarde à l'autre, et c'est même optimisé pour les projets où tout le monde travaille sur le même fichier !  
 
 En gros, c'est la même chose quand vous faîtes une grosse présentation PPT. Vous faites tellement de modifications dessus que vous vous retrouvez à la fin avec le nom "VF_ avec_ retours_ Jean01_final.ppt". Le versionning vous permet d'avoir toutes les versions sauvegardées, et de revenir à celles que vous voulez à tout moment, et de nous éviter ces tracas.
 
@@ -15,9 +15,11 @@ Pour information, Git a été créé en 2005 par Linus Torvald, qui a (entre aut
 
 <h3>1.3. Le cours</h3>
 <h4>1.3.1. Installer Git</h4>
+
 Avant de pouvoir se servir de Git, il faut l'installer. Cela tombe bien, il y a un [chapitre éponyme](https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github/installer-git) dans le cours sur OC.
 
 <h4>1.3.2. Première introduction à Git</h4>
+
 J'ai fait une petite vidéo d'introduction à Git, que tu pourras retrouver ci-bas:
 ![youtube](http://image.noelshack.com/fichiers/2018/44/4/1541071993-thp.png) 
 
@@ -53,6 +55,7 @@ Imaginons que veut vérifier un truc sur un vieux commit. On va utiliser la comm
 >$ git checkout n'est pas une commande pour revenir en arrière et faire des modifications sur les anciens commits. Si tu fais ça, tu vas te retrouver avec une erreur qui a donné lieu à [l'un des threads](https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin) les plus célèbres de Stack Overflow. Pour tout effacer et revenir en arrière, le chapitre suivant sera là pour toi.
 
 <h3>1.4.4. Revenir en arrière</h3>
+
 J'ai fait des trucs, mais cela ne me convient pas. Comment revenir en arrière ? (inspiré par [cette excellente](https://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit/4114122#4114122) réponse de Stack Overflow)
 
 <h4>1.4.4.1. Effacer pour revenir au commit d'avant</h4>
@@ -62,6 +65,7 @@ La fonction $ git reset --hard permet de revenir au commit précédent, en effa�
 On peut faire ceci avec : $ git reset --hard 45581cebdd2cae494f80f44010af9e4a86c9b8fa, avec 45581c le SHA sur lequel tu veux revenir.
 
 <h3>1.5. Pour aller plus loin</h3>
+
 Au vu des apologies que l'on lui donne, le [cours de OpenClassrooms](https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github) sur Git est un très bon point pour aller plus loin. Il explique notamment la notion de branches et de fusions.
 
 Aussi, voici [un cours](https://www.vikingcodeschool.com/web-development-basics/getting-to-know-git) sur Git de la Viking Code School. Il explique bien les bases de Git et est une bonne alternative au notre.
