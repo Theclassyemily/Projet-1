@@ -1,10 +1,12 @@
 <h2>1. Git et GitHub</h2>
 <h3>1.1 Introduction</h3>
+
 Ce cours t'introduira à Git et Github, deux fantastiques outils qui permettent de faire des sauvegardes efficaces d'unprojet, et de travailler à plusieurs sur le même dossier.
 
 Dans cette leçon, nous allons te montrer comment installer Git, comment s'en servir, et comment le faire marcher. Pour ceci, nous allons nous aider de l'excellent [cours](https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github) sur OpenClassrooms de Marc Gauthier, sur Git et GitHub.
 
 <h3>1.2. Historique</h3>
+
 Git est un outil de versionning de code, c'est à dire que c'est une commande qui permet de faire des sauvegardes, avec commentaires d'un projet. Ainsi, il est facile de revenir d'une version de sauvegarde à l'autre, et c'est même optimisé pour les projets où tout le monde travaille sur le même fichier !  
 
 En gros, c'est la même chose quand vous faîtes une grosse présentation PPT. Vous faites tellement de modifications dessus que vous vous retrouvez à la fin avec le nom "VF_ avec_ retours_ Jean01_final.ppt". Le versionning vous permet d'avoir toutes les versions sauvegardées, et de revenir à celles que vous voulez à tout moment, et de nous éviter ces tracas.
@@ -20,8 +22,7 @@ Avant de pouvoir se servir de Git, il faut l'installer. Cela tombe bien, il y a 
 
 <h4>1.3.2. Première introduction à Git</h4>
 
-J'ai fait une petite vidéo d'introduction à Git, que tu pourras retrouver ci-bas:
-![youtube](http://image.noelshack.com/fichiers/2018/44/4/1541071993-thp.png) 
+J'ai fait une petite vidéo d'introduction à Git, que tu pourras retrouver [ici](https://youtu.be/ggaMadCKjko)
 
 Ensuite, tu peux suivre le cours de Marc Gauthier jusqu'à la partie [Récupérez des modifications](https://openclassrooms.com/courses/gerer-son-code-avec-git-et-github/recuperer-des-modifications). Nous verrons dans la formation THP comment faire les branches et autres joyeusetés 😇
 
