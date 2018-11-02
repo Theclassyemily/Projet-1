@@ -41,3 +41,53 @@ Ce programme n'est pas définitif et peut être modifié en fonction des envies 
 * **Titre**: Guide de survie lexical en territoire tech
 * **Résumé**: Ce cours sera une introduction à l'univers tech, afin de vous expliquer comment la tech marche et que dire quand un dev vous parle du backend
 * **Projet**: aucun
+
+<h3>Objectif du cours</h3>
+
+Le cours a pour but principal de faire découvrir le monde des sites webs et de l'informatique.
+
+A la fin, les étudiants seront capables de :
+
+* Concevoir une page web avec HTML
+* Lui mettre de la mise en page avec CSS
+* Insérer des animations avec JavaScript
+* Le rendre adaptatif au mobile avec Bootstrap
+* Manipuler l'écran noir du terminal
+* Mettre son code en ligne et travailler à plusieurs sur un projet Github
+* Mettre en ligne son site internet
+* Découvrir le monde merveilleux du jargon de l'informatique
+
+De plus, avec la pédagogie de l'éducation de pairs, les étudiants seront capables de:
+
+* S'expliquer mutuellement des concepts compliqués
+* Travailler en équipe sur les projets d'entreprise
+* Rechercher la bonne information
+* Assimiler rapidement des bases théoriques pour les appliquer dans des projets
+
+<h3>Exemple de projet</h3>
+
+Réaliser à plusieurs un site internet au format _landing page_ pour présenter une idée de startup et le mettre en ligne.
+
+<h3>Bibliographie succincte</h3>
+
+Chacon, Scott; Straub, Ben. _Pro Git_. Apress. 2014. 456 pages
+
+Hartl, Michael. _Learn Enough Command Line to Be Dangerous: A tutorial introduction to the Unix command line_. Softcover. 2016. 85 pages.
+
+Nebra, Mathieu. _Réalisez votre site web avec HTML 5 et CSS 3_. OpenClassrooms. 2017. 306 pages.
+
+<h3>Langue d'enseignement</h3>
+
+Le cours est conçu pour des élèves français; mais le monde de l'informatique étant majoritairement anglo-saxon, il y aura un peu d'anglais dans les ressources.
+
+<h3>Matériel</h3>
+
+Pour les cours, vous aurez besoin d'un ordinateur.
+
+Voici les différents logiciels à installer:
+
+* Un terminal
+	* Déjà installé sur macOS et Linux
+	* Cygwin sur Windows
+* Un éditeur de texte 
+	* Sublime Text ou Visual Studio Code
